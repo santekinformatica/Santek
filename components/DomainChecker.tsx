@@ -59,7 +59,7 @@ export const DomainChecker: React.FC = () => {
                     type="text" 
                     value={domain}
                     onChange={(e) => setDomain(e.target.value)}
-                    placeholder="suesite.com.br"
+                    placeholder="seusite.com.br"
                     aria-label="Digite o domínio para verificar"
                     className="w-full pl-4 pr-14 py-4 rounded-xl bg-white text-gray-900 font-bold focus:outline-none focus:ring-4 focus:ring-santek-blue/50 shadow-inner"
                 />
