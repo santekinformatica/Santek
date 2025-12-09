@@ -1,0 +1,7 @@
+{
+  "name": "Santek Soluções em Tecnologias",
+  "description": "Especialistas em Tráfego Pago (Google Ads, Facebook Ads), Hospedagem de Sites e Consultoria TI. Verifique seu domínio agora.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

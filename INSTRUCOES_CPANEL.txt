@@ -1,0 +1,29 @@
+=== COMO COLOCAR SEU SITE NO CPANEL ===
+
+Este é um projeto moderno em React. Para funcionar no cPanel (que é um servidor estático), você precisa "construir" (build) o site.
+
+PASSO 1: Preparar os arquivos
+1. Certifique-se de ter o Node.js instalado no seu computador.
+2. Baixe todos os arquivos deste projeto para uma pasta.
+3. Abra o terminal nessa pasta.
+
+PASSO 2: Gerar o Site
+1. Execute o comando: 
+   npm install
+   (Isso vai baixar as ferramentas necessárias)
+
+2. Execute o comando: 
+   npm run build
+   (Isso vai criar uma pasta chamada 'dist' com o site pronto e otimizado)
+
+PASSO 3: Upload para o cPanel
+1. Entre no seu cPanel > Gerenciador de Arquivos.
+2. Vá para a pasta 'public_html'.
+3. Faça o upload de TUDO o que está DENTRO da pasta 'dist' que foi criada no seu computador.
+   (Você deve ver index.html e uma pasta assets).
+
+Pronto! Seu site estará no ar, super rápido e otimizado.
+
+=== NOTA SOBRE A IA (GEMINI) ===
+Para a Inteligência Artificial funcionar, você deve criar um arquivo chamado .env na raiz do projeto ANTES de rodar o 'npm run build' com o seguinte conteúdo:
+API_KEY=sua_chave_da_google_aqui
